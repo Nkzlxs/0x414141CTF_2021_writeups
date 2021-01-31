@@ -64,10 +64,29 @@ which address are 0x132 till 0x13b
 ![solution 4](../images/xandor_sol_4.png)
 
 
+
+> set breakpoint on CMP EDX,$some_var, so i can get value of rdx during the break, by combining all of the rdx value and convert to ascii, the flag will be out.
 ```
+
 (gdb) break *0x00005555555552a7
 Breakpoint 4 at 0x5555555552a7
 
+(gdb) run
+Starting program: /home/nkzlxs/Nkzlxs_projects/ctf/0x41414141_ctf_2021/reverse/xandor/x-and-or 
+(gdb) cont
+
+Enter the flag: flag{CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC}
+
+Breakpoint 4, 0x00005555555552a7 in main ()
+(gdb) info register
+rax            0x7fffffffd8c0      140737488345280
+rbx            0x5555555552f0      93824992236272
+rcx            0x7ffff7ffb000      140737354117120
+rdx            0x2                 2
+rsi            0x2                 2
+.
+.
+.
 (gdb) break *0x7ffff7ffb000+0x132
 Breakpoint 7 at 0x7ffff7ffb132
 (gdb) set write on
