@@ -1,6 +1,6 @@
 # Table of contents
-- ## [factorize](#factorize)
-- ## [staple AES](#staple-aes)
+- ## [factorize](#challenge-name-factorize)
+- ## [staple AES](#challenge-name-staple-aes)
   
 ---
 
@@ -10,7 +10,7 @@
 
 ---
 
-# factorize
+# Challenge Name: factorize
 
 ![Question screenshot](../images/factorize.png)
 
@@ -55,7 +55,7 @@ b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00flag{just_g0tta_f@
 
 ---
 
-# staple AES
+# Challenge name: staple AES
 
 ![Question screenshot](../images/staple_aes.png)
 

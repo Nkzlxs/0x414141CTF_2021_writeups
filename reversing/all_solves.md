@@ -1,5 +1,5 @@
 # Table of contents
-- ## [x and or](#x-and-or)
+- ## [x and or](#challenge-x-and-or)
   
 ---
 
@@ -9,7 +9,7 @@
 
 ---
 
-# x and or
+# Challenge Name : x and or
 ![question screenshot](../images/xandor.png)
 
 ## Information

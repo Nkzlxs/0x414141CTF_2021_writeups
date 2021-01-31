@@ -1,5 +1,5 @@
 # Table of contents
-- ## [Register PIN](#register-pin)
+- ## [RegisterPIN](#register-pin)
   
 ---
 

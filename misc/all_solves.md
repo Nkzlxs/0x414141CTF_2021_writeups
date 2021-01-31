@@ -1,6 +1,6 @@
 # Table of contents
-- ## [optimizer](#optimizer)
-- ## [0x414141](#0x414141)
+- ## [optimizer](#challenge-name-optimizer)
+- ## [0x414141](#challenge-name-0x414141)
   
 ---
 
@@ -9,7 +9,7 @@
 ### I'm using Ubuntu 20.04 as my environment.
 
 ---
-# optimizer
+# Challenge name: optimizer
 ![Question screenshot](../images/optimizer.png)
 
 ## Information
@@ -86,7 +86,7 @@ while True:
 
 ---
 
-# 0x414141
+# Challenge name: 0x414141
 ![Question screenshot](../images/0x414141.png)
 
 ## Information

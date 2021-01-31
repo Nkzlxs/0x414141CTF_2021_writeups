@@ -1,8 +1,8 @@
 # Table of contents
-- ## [Sanity Check](#sanity-check)
-- ## [Secure Enclave](#secure-enclave)
-- ## [Crackme](#crackme)
-- ## [Crypto Casino](#crypto-casino)
+- ## [Sanity Check](#challenge-name-sanity-check)
+- ## [Secure Enclave](#challenge-name-secure-enclave)
+- ## [Crackme](#challenge-name-crackme)
+- ## [Crypto Casino](#challenge-name-crypto-casino)
   
 ---
 
@@ -15,7 +15,7 @@
 ---
 
 
-# Sanity Check
+# Challenge Name: Sanity Check
 ![Question Screenshot](../images/sanitycheck.png)
 
 ## Information: 
@@ -37,7 +37,7 @@ Screenshot:
 
 ---
 
-# Secure Enclave
+# Challenge name: Secure Enclave
 ![Question Screenshot](../images/secureenclave.png)
 
 ## Information:
@@ -83,7 +83,7 @@ Screenshot:
 
 ---
 
-# Crackme
+# Challenge name: Crackme
 ![Question screenshot](../images/crackme.png)
 
 ## Information
@@ -298,7 +298,7 @@ C0ngr@75_Y0u_CR@CK3D_m3854>>>
 ---
 
 
-# Crypto Casino
+# Challenge name: Crypto Casino
 ![Question Screenshot](../images/cryptocasino.png)
 
 
@@ -341,7 +341,7 @@ contract casino {
 - i need to replicate ```abi.encodePacked(seed,block.number)``` in python
 - ```block.number``` is the length of the chain of rinkeby at the moment ```bet()``` was called
 
-## Solution
+## My solution
 
 For ```seed```, we can get it on ```brownie console``` by running ```web3.keccak(text="satoshi nakmoto")```
 ```

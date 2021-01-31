@@ -1,6 +1,6 @@
 # Table of contents
-- ## [graphed 2.0](#graphed-20)
-- ## [hackme](#hackme)
+- ## [graphed 2.0](#challenge-name--graphed-20)
+- ## [hackme](#challenge-name-hackme)
   
 ---
 
@@ -11,7 +11,7 @@
 
 ---
 
-# graphed 2.0
+# Challenge Name: graphed 2.0
 ![questoin screenshot](../images/graphed.png)
 
 ## *At the time of writing this, the website is down*
@@ -85,7 +85,7 @@ query={
 
 ---
 
-# hackme
+# Challenge Name: hackme
 
 ![Question screenshot](../images/hackme.png)
 
