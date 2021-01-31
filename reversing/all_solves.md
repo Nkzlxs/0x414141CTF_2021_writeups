@@ -45,9 +45,24 @@ with open("somecode2","wb") as f:
     f.write(bytes(some_code))
 ```
 After xor'd with 0x42, the 500 bytes will be a valid assembly instruction
+
+This is the decompiled code, in C syntax
 ![solution 3](../images/xandor_sol_3.png)
 
-1. but, for some reason i can't properly reverse the flag using the information, so i ended up finding the flag character by character and patch the ```CMP EDX, $some_var``` out to ```\x90\x90```
+6. even though the code in C syntax are decompiled, for some reason i can't reverse the flag by following the code, so i ended up finding the flag character by character in gdb by patching
+```
+CMP EDX, $some_var
+JZ $some_function
+MOV $some_var 0xffffffff
+JMP $some_function
+```
+
+to ```\x90```(s)
+
+
+which address are 0x132 till 0x13b
+![solution 4](../images/xandor_sol_4.png)
+
 
 ```
 (gdb) break *0x00005555555552a7
